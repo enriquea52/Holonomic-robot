@@ -1,0 +1,8 @@
+<launch>
+	
+	<node pkg="holo" type="RRT_STAR_node2.py" name="RRT_STAR" cwd="node"  />
+	<include file="$(find holo)/src/launch/motion.launch"/>
+	<include file="$(find holo)/src/launch/detect.launch"/>
+
+</launch>
+

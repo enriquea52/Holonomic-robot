@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="holo" type="Motion_Node.py" name="Robot_Motion" cwd="node"  />
+</launch>

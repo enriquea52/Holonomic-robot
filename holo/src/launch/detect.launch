@@ -1,0 +1,6 @@
+<launch>
+	
+	<node pkg="kinect_obstacles" type="obstacle_det_NODE.py" name="Obs_det" cwd="node"  />	
+
+</launch>
+
